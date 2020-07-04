@@ -42,7 +42,7 @@
                                 
                                 <tr>
                                     <td style="padding-top: 10px; padding-bottom: 10px;">
-                                        {{ $item->files->filename }}
+                                        <img src="{{ asset($item->files->filename) }}" width="50px" alt="">
                                     </td>
                                     <td>{{ $item->title }}</td>
                                     <td>{{ $item->subtitle }}</td>

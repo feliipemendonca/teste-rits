@@ -65,12 +65,14 @@ class ContentsController extends Controller
         $content = Content::findOrFail($id);
         $content->setData($content, $request->all());
 
+        // dd($request->all());
+
         try{
-            if(!$request->video && !$request->image){
+            if(isset($request->image) && !$request->video){
 
                 $files = new Files; 
                 $files->upload($files, $request->image);
-                $content->files_id = $files->id;  
+                $content->file_id = $files->id;  
             }
 
             $content->save();

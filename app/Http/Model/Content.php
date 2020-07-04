@@ -22,7 +22,7 @@ class Content extends Model
 
     public function files()
     {
-        return $this->belongsTo('App\Http\Model\Files','id');
+        return $this->belongsTo('App\Http\Model\Files','file_id');
     }
 
     public function setData(&$content, $request)

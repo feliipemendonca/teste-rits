@@ -65,8 +65,6 @@ class ContentsController extends Controller
         $content = Content::findOrFail($id);
         $content->setData($content, $request->all());
 
-        // dd($request->all());
-
         try{
             if(isset($request->image) && !$request->video){
 

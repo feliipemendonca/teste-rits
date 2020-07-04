@@ -1,0 +1,29 @@
+* {
+    font-family: "Muli", sans-serif;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.btn-pink {
+    background-color: $pink;
+}
+
+.bg-default {
+    background-color: $default;
+}
+
+.bg-pink {
+    background-color: $pink;
+}
+
+.one {
+    .d-lg-block {
+        width: 56%;
+        right: 0;
+    }
+}
+
+.two {
+}

@@ -4,7 +4,7 @@
 
 :root {
   --blue: #3490dc;
-  --indigo: #6574cd;
+  --indigo: #363d87;
   --purple: #9561e2;
   --pink: #ef426f;
   --red: #e3342f;
@@ -10933,6 +10933,28 @@ a.text-dark:focus {
 
 .btn-pink {
   background-color: #ef426f;
+  color: #ffffff;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  box-shadow: 8px 8px #363d87;
+  width: 290px;
+  transition: all 0.5s ease;
+}
+
+.btn-pink:after {
+  content: "quero me candidatar";
+  transition: all 0.5s ease;
+}
+
+.btn-pink:hover {
+  box-shadow: 4px 4px #363d87;
+  color: #ffffff;
+}
+
+.btn-pink:hover:after {
+  content: "quero me inscrever";
+  transition: all 0.5s ease;
 }
 
 .bg-default {
@@ -10943,8 +10965,180 @@ a.text-dark:focus {
   background-color: #ef426f;
 }
 
-.one .d-lg-block {
-  width: 56%;
+@media (max-width: 992px) {
+  .none {
+    display: none !important;
+  }
+}
+
+.one,
+.two {
+  padding-bottom: 6rem;
+}
+
+.one .one-text,
+.two .one-text {
+  padding-top: 5rem;
+  padding-bottom: 20px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .one .one-text,
+  .two .one-text {
+    font-size: 35px;
+    width: 80%;
+  }
+}
+
+.one-content {
+  padding-bottom: 20px;
+  width: 57%;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.one-content strong {
+  font-weight: 800;
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .one-content {
+    font-size: 14px;
+    width: 80%;
+  }
+}
+
+.one .d-lg-block,
+.two .d-lg-block {
+  width: 50%;
   right: 0;
+  transition: all 0.5s ease;
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+  .one .d-lg-block,
+  .two .d-lg-block {
+    width: 57%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1457px) {
+  .one .d-lg-block,
+  .two .d-lg-block {
+    width: 61%;
+  }
+}
+
+@media (max-width: 992px) {
+  .one-btn {
+    text-align: center;
+  }
+}
+
+.two {
+  padding-top: 13em;
+  padding-bottom: 22.2em;
+}
+
+.two .bg-default {
+  box-shadow: 5px 4px 16px #7070701c;
+}
+
+@media (min-width: 992px) {
+  .two .row {
+    position: absolute;
+  }
+}
+
+.two-content {
+  padding-left: 6em;
+  margin-top: -20px;
+}
+
+.two-content .one-text {
+  font-size: 36px;
+  width: 49%;
+  color: #ef426f;
+  padding-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  .two-content .one-text {
+    width: auto;
+  }
+}
+
+.two-content .one-content {
+  width: 63%;
+}
+
+@media (max-width: 992px) {
+  .two-content .one-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .two-content {
+    padding-left: 0;
+  }
+}
+
+.two .video {
+  height: 320px;
+  width: 43%;
+  right: 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease;
+}
+
+.two .video object {
+  height: 30%;
+  border-radius: 100%;
+  transition: all 0.3s ease;
+}
+
+.two .video:hover {
+  height: 325px;
+  width: 43.5%;
+}
+
+.two .video:hover object {
+  height: 32%;
+  background: #ef426f;
+}
+
+@media (max-width: 992px) {
+  .two .video {
+    width: 100%;
+    height: 50vw;
+  }
+}
+
+.two .border-content {
+  -o-border-image: linear-gradient(transparent 10%, #363d87 10% 90%, transparent 90%) 0 0 0 1/3px;
+     border-image: linear-gradient(transparent 10%, #363d87 10% 90%, transparent 90%) 0 0 0 1/3px;
+  border-left: 2px solid;
+  border-image-width: 28px 11px;
+  width: 16px;
+  height: 129px;
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+  .two {
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
+}
+
+.three {
+  padding-top: 10rem;
 }
 

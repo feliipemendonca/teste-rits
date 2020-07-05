@@ -1,0 +1,58 @@
+.one {
+    padding-bottom: 6rem;
+    .one-text {
+        padding: {
+            top: 5rem;
+            bottom: 20px;
+        }
+        font: {
+            size: 48px;
+            weight: 700;
+        }
+
+        @media (min-width: 992px) and (max-width: 1300px) {
+            font-size: 35px;
+            width: 80%;
+        }
+    }
+
+    &-content {
+        padding-bottom: 20px;
+        width: 57%;
+
+        font: {
+            size: 18px;
+            weight: 200;
+        }
+
+        strong {
+            font-weight: 800;
+        }
+
+        @media (min-width: 992px) and (max-width: 1300px) {
+            font-size: 14px;
+            width: 80%;
+        }
+    }
+
+    .d-lg-block {
+        width: 50%;
+        right: 0;
+        transition: all 0.5s ease;
+
+        @media (min-width: 992px) and (max-width: 1300px) {
+            width: 57%;
+        }
+        @media (min-width: 1300px) and (max-width: 1457px) {
+            width: 61%;
+        }
+        // @media (min-width: 1679px) {
+        //     width: 49%;
+        // }
+    }
+    &-btn {
+        @media (max-width: 992px) {
+            text-align: center;
+        }
+    }
+}

@@ -8,13 +8,12 @@
         </button>
 
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav form-inline my-2 my-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-
+            <ul class="navbar-nav w-100 d-flex justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Desativado</a>
+                    <a class="nav-link" href="#">Proin</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Atendimento</a>
                 </li>
             </ul>
         </div>

@@ -19,7 +19,7 @@ class CreateContentsTable extends Migration
             $table->foreignId('user_id')->constrained()->nullable();
             $table->string('title');
             $table->string('subtitle')->nullable();
-            $table->string('content');
+            $table->text('content');
             $table->string('video')->nullable();
             $table->string('slug');
             $table->timestamps();

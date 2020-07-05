@@ -8,7 +8,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav w-100 d-flex justify-content-end">
+            <ul class="nav w-100 justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Proin</a>
                 </li>

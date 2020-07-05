@@ -1,8 +1,25 @@
 @extends('layouts.layout')
 
 @section('content')
-    @include('sections.section_one')
-    @include('sections.section_two')
-    @include('sections.section_three')
-    @include('sections.section_four')
+    @foreach ($contents as $key => $item)
+        @switch($key)
+            @case(0)
+                @include('sections.section_one')
+                @break
+            @case(1)
+                @include('sections.section_two')
+                @break
+            @case(2)
+                @include('sections.section_three')
+                @break
+            @case(3)
+                @include('sections.section_four')
+                @break
+            @case(4)
+                @include('sections.section_four')
+                @break
+            @default
+                
+        @endswitch
+    @endforeach
 @endsection

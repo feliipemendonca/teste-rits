@@ -1,3 +1,139 @@
 .three {
-    padding-top: 10rem;
+    padding-top: 19rem;
+
+    .row {
+        margin: 0;
+    }
+
+    .col-12,
+    .col-lg-6 {
+        padding: 0;
+    }
+
+    &-left {
+        width: 75%;
+
+        .img-fluid {
+            right: 0;
+            width: 553px;
+            margin-top: -10em;
+            transition: all 0.3s all;
+
+            @media (max-width: 991px) {
+                margin-top: -7em;
+                width: 100%;
+            }
+
+            @media (min-width: 992px) and (max-width: 1200px) {
+                width: 455px;
+            }
+        }
+
+        &-text {
+            width: 77%;
+            padding: {
+                top: 8em;
+                bottom: 2em;
+            }
+
+            font: {
+                size: 28px;
+                weight: 900;
+            }
+            color: $default;
+
+            span {
+                color: $black;
+            }
+
+            @media (max-width: 991px) {
+                width: 100%;
+                padding: {
+                    top: 2em;
+                    bottom: 1em;
+                }
+            }
+
+            @media (min-width: 992px) and (max-width: 1200px) {
+                padding: {
+                    top: 5em;
+                    width: 88%;
+                }
+            }
+        }
+
+        @media (min-width: 1200px) {
+            width: 537px;
+        }
+
+        @media (max-width: 991px) {
+            text-align: center;
+        }
+    }
+
+    &-right {
+        width: 500px;
+        padding-left: 8rem;
+        .nav {
+            ul {
+                list-style: none;
+                li {
+                    padding: {
+                        top: 2rem;
+                        bottom: 1rem;
+                    }
+
+                    &:nth-child(1) {
+                        padding-top: 1.5em;
+                    }
+
+                    &:nth-child(2) {
+                        padding: {
+                            bottom: 2rem;
+                        }
+
+                        p {
+                            margin-top: 15px;
+
+                            img {
+                                margin-top: -20px;
+                            }
+                        }
+                    }
+
+                    p {
+                        margin-left: 36px;
+                        margin-top: -5px;
+                        font-size: 18px;
+
+                        img {
+                            position: absolute;
+                            margin-left: -86px;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media (min-width: 992px) {
+            padding-left: 14%;
+        }
+    }
+
+    @media (max-width: 991px) {
+        padding-top: 10em;
+
+        .justify-content-end {
+            justify-content: center !important;
+        }
+
+        .position-absolute {
+            position: relative !important;
+        }
+
+        .three-right {
+            padding: 4em;
+            width: auto;
+        }
+    }
 }

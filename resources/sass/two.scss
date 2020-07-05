@@ -27,7 +27,7 @@
                 color: $pink;
                 padding-top: 2rem;
 
-                @media (max-width: 992px) {
+                @media (max-width: 991px) {
                     width: auto;
                 }
             }
@@ -35,13 +35,13 @@
             &-content {
                 width: 63%;
 
-                @media (max-width: 992px) {
+                @media (max-width: 991px) {
                     width: 100%;
                 }
             }
         }
 
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
             padding-left: 0;
         }
     }
@@ -71,7 +71,7 @@
             }
         }
 
-        @media (max-width: 992px) {
+        @media (max-width: 991px) {
             // width: auto;
             // height: 275px;
             width: 100%;
@@ -90,7 +90,7 @@
         margin-top: 10px;
     }
 
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
         padding: {
             top: 5em;
             bottom: 5em;

@@ -39,8 +39,12 @@
     background-color: $pink;
 }
 
+.bg-indigo {
+    background-color: $indigo;
+}
+
 .none {
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
         display: none !important;
     }
 }

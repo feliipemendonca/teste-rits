@@ -1,0 +1,5 @@
+.five {
+    @extend .four, .three;
+
+    padding-top: 8.7em;
+}

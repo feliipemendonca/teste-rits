@@ -18,6 +18,9 @@
             @case(4)
                 @include('sections.section_four')
                 @break
+            @case(5)
+                @include('sections.section_five')
+                @break
             @default
                 
         @endswitch

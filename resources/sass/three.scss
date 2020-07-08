@@ -13,6 +13,11 @@
     &-left {
         width: 75%;
 
+        .btn-pink {
+            position: relative;
+            margin-bottom: -19px;
+        }
+
         .img-fluid {
             right: 0;
             width: 553px;
@@ -33,7 +38,7 @@
             width: 77%;
             padding: {
                 top: 8em;
-                bottom: 2em;
+                bottom: 3em;
             }
 
             font: {
@@ -79,8 +84,9 @@
                 list-style: none;
                 li {
                     padding: {
-                        top: 2rem;
-                        bottom: 1rem;
+                        // top: 2rem;
+                        top: 1rem;
+                        // bottom: 1rem;
                     }
 
                     &:nth-child(1) {
@@ -112,6 +118,10 @@
                         }
                     }
                 }
+            }
+
+            @media (min-width: 992px) {
+                width: 355px;
             }
         }
 

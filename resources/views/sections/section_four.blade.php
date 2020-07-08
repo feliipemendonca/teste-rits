@@ -1,6 +1,6 @@
 <section class="four{{ $key == 4 ? ' five' : '' }}">
     <div class="row">
-        <div class="col-12 col-lg-6 {{ $key == 4 ? 'order-1 order-lg-2' : 'order-2 order-lg-1' }}">
+        <div class="col-12 col-lg-6 {{ $key == 4 ? 'order-2 order-lg-2' : 'order-2 order-lg-1' }}">
             <div class="container">
                 <div class="three-right">
                     <div class="nav">
@@ -10,7 +10,7 @@
                 </div>
             </div>
         </div>
-         <div class="col-12 col-lg-6  {{ $key == 4 ? 'order-2 order-lg-1' : 'order-1 order-lg-2' }}">
+         <div class="col-12 col-lg-6  {{ $key == 4 ? 'order-1 order-lg-1' : 'order-1 order-lg-2' }}">
             <div class="bg-{{ $key == 4 ? 'indigo' : 'pink' }}">
                 <div class="container">
                     <div class="three-left">

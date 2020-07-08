@@ -30,8 +30,8 @@
         .img-fluid {
             position: absolute;
             margin-top: -2rem;
-            left: 3%;
-            width: 50%;
+            left: 11%;
+            width: 38%;
         }
     }
 
@@ -103,7 +103,10 @@
                     }
 
                     h3 {
-                        padding-bottom: 1em;
+                        padding: {
+                            top: 3rem;
+                            bottom: 1em;
+                        }
                         font: {
                             size: 28px;
                             weight: 700;

@@ -1,0 +1,1 @@
+<img class="whatsapp" src="{{ asset('images/min/whatsapp.png') }}" alt="">

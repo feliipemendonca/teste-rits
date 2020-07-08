@@ -36,6 +36,10 @@
                     left: 5em;
                 }
             }
+
+            @media (min-width: 1200px) {
+                width: 132%;
+            }
         }
 
         @media (max-width: 991px) {

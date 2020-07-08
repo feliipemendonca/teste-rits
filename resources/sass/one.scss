@@ -52,9 +52,18 @@
         @media (min-width: 1300px) and (max-width: 1457px) {
             width: 61%;
         }
-        // @media (min-width: 1679px) {
-        //     width: 49%;
-        // }
+
+        img {
+            &:nth-child(1) {
+                width: 100%;
+            }
+
+            &:nth-child(2) {
+                position: relative;
+                margin-top: -25px;
+                left: 70%;
+            }
+        }
     }
     &-btn {
         @media (max-width: 991px) {

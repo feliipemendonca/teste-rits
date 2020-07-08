@@ -11,7 +11,10 @@
                     <button class="btn btn-pink"></button>
                 </div>
             </div>
-            <img src="{{ asset($item->files->filename) }}" class="img-fluid d-none d-lg-block position-absolute" alt="Imagem 1">
+            <div class="img-fluid d-none d-lg-block position-absolute">
+                <img src="{{ asset($item->files->filename) }}" alt="Imagem 1">
+                <img src="{{ asset('images/min/img-top.png') }}" class="img-top pos">
+            </div>
         </div>
     </div>
     <div class="green w-100"></div>

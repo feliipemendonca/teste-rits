@@ -4,9 +4,12 @@
         // right: 0;
     }
 
-    // &-brand{
-    //     .img-fluid{
-    //         width: 50;
-    //     }
-    // }
+    &-brand {
+        @media (max-width: 457px) {
+            width: 123px;
+            .w-50 {
+                width: 100% !important;
+            }
+        }
+    }
 }
